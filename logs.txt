@@ -1,0 +1,54 @@
+commit 2231002bca13922fa5194c86b3590e11d83cdac3
+Merge: c9b9b9d 0ffd34f
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 12:50:35 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit c9b9b9d9139c34ddb5cd705316d5ab16bf7f0c27
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 12:46:06 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 0ffd34f6be38dfb0228ce842e6e84d60df6783d3
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 00:49:29 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit b93799341ea6b4b83956d2dfef4d97f84fc5f75a
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 00:47:15 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 210103795d912f5467ec9701f2fcebd8db56a6cb
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 00:45:36 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit b89edd68310f2380bb0dc241ec5ac423e81f19a9
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 00:44:04 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 9f211817acc1b71c9012973a39830b47fc061fa7
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Wed Apr 3 00:34:53 2024 +0200
+
+    Initial commit
+
+commit 333543597cc337971457d5b5440dead4f236b82d
+Author: Marija <139059082+marijaCvet5@users.noreply.github.com>
+Date:   Wed Apr 3 00:00:15 2024 +0200
+
+    Delete README.md
+
+commit d9c4258c0a4e6c3432d03454d0da9e8094158ae8
+Author: Marija <marija.cvetanoskaa@gmail.com>
+Date:   Tue Apr 2 23:49:37 2024 +0200
+
+    first commit
