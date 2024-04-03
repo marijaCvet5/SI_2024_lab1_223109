@@ -1,0 +1,152 @@
+Softversko inzenerstvo lab-1
+
+3. $ git init(so ovaa komanda inicijalizirame nov lokalen Git repozitorium o tekovniot direktorium)
+   $ git add .(so ovaa komanda gi dodavame site promeni vo tekovniot direktorium) 
+   $ git commit -m "First Commit"(so ovaa komanda kreirame nov commit so poraka "First Commit" so site promeni koi sme gi dodale vo 
+                                  prethodniot cekor)
+   $ git branch -M master(so ovaa komanda ja preimenuvame momentalnata granka master)
+   $ git remote add origin https://github.com/marijaCvet5/SI_2024_lab1_223109.git(so ovaa komanda dodavame oddalecen repozitorium)
+   $ git push -u origin master(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata master)
+
+4. $ mkdir SI_2024_lab1_223109(so ovaa komanda kreirame direktorium(lokalen, repozitorium so ime SI_2024_lab1_223109)
+   $ cd SI_2024_lab1_223109(so ovaa komanda se prefrlame vo direktoriumot)
+   $ git init(so ovaa komanda go inicijalizirame Git vo direktoriumot)
+
+5. $ git remote add origin https://github.com/marijaCvet5/SI_2024_lab1_223109(so ovaa komanda go povrzuvame lokalniot repozitorium so 
+                                                                              oddaleceniot repozitorium)
+
+6. $ echo "Марија Цветаноска 223109" > README.md(so ovaa komanda ja kopirame sodrzinata "Марија Цветаноска 223109" vo README.md fajl)
+   $ git add README.md(so ovaa komanda(so ovaa komanda dodavame README.md fajl)
+   $ git commit -m "Initial commit"(so ovaa komanda kreirame commit so poraka "Initial commit" so promenite sto sme gi dodale)
+   $ git push -u origin master(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata master)
+
+7. $ cd SI_2024_lab1_223109(so ovaa komanda se prefrlame vo direktoriumot)
+   $ git add .(so ovaa komanda gi dodavame site promeni vo tekovniot direktorium) 
+   $ git commit -m "Add starter code"(so ovaa komanda kreirame nov commit so poraka "Add starter code" so site promeni koi sme gi dodale 
+                                      vo prethodniot cekor)
+
+8. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium) 
+
+9. $ git checkout master(so ovaa komanda se prefrlame na grankata master)
+   $ git pull origin master(so ovaa komanda gi izvlekuvame promenite od oddaleceniot repozitorium na glavnata granka master i gi 
+                            integrirame so nasata lokalna kopija na glavnata granka)
+   $ git checkout -b bug1 master(so ovaa komanda kreirame granka bug1 koja se razgranuva od master i se prefrlame na nea)
+   $ git checkout -b bug2 master(so ovaa komanda kreirame granka bug2 koja se razgranuva od master i se prefrlame na nea)
+
+10. $ git checkout bug1(so ovaa komanda se prefrlame na grankata bug1)
+
+11. $ nano SILab1_1.java(so pomos na nano otvarame tekstualen urednik so ime SILab1_1.java)
+    $ git add SILab1_1.java(so ovaa komanda gi dodavame promenite napraveni vo SILab1_1.java)
+    $ git commit -m "Fix wrong condition in filterOddLengthStrings"(so ovaa komanda kreirame nov commit so poraka "Fix wrong condition in 
+                                                                     filterOddLengthStrings" so site promeni koi sme gi dodale vo 
+                                                                     prethodniot cekor)
+    $ git push origin bug1(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata bug1)
+
+12. $ git checkout bug2(so ovaa komanda se prefrlame na grankata bug2)
+
+13. $ nano SILab1_2.java(so pomos na nano otvarame tekstualen urednik so ime SILab1_2.java)
+    $ git add SILab1_2.java(so ovaa komanda gi dodavame promenite napraveni vo SILab1_2.java)
+    $ git commit -m "Fix wrong condition in makeBigStringFrom"(so ovaa komanda kreirame nov commit so poraka "Fix wrong condition in 
+                                                               makeBigStringFrom" so site promeni koi sme gi dodale vo 
+                                                               prethodniot cekor)
+    $ git push origin bug2(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata bug2)
+
+14. $ git checkout bug1(so ovaa komanda se prefrlame na grankata bug1)
+
+15. $ nano SILab1Main.java(so pomos na nano otvarame tekstualen urednik so ime SILab1Main.java)
+    $ git add SILab1Main.java(so ovaa komanda gi dodavame promenite napraveni vo SILab1Main.java)
+    $ git commit -m "Call method filterOddLengthStrings in main class"(so ovaa komanda kreirame nov commit so poraka "Call method 
+                                                                       filterOddLengthStrings in main class" so site promeni koi sme gi 
+                                                                       dodale vo prethodniot cekor)
+    $ git push origin bug1(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata bug1)
+
+16. git checkout bug2(so ovaa komanda se prefrlame na grankata bug2)
+
+17. $ nano SILab1Main.java(so pomos na nano otvarame tekstualen urednik so ime SILab1Main.java)
+    $ git add SILab1Main.java(so ovaa komanda gi dodavame promenite napraveni vo SILab1Main.java)
+    $ git commit -m "Call method makeBigStringFrom in main class"(so ovaa komanda kreirame nov commit so poraka "Call method 
+                                                                  makeBigStringFrom in main class" so site promeni koi sme gi 
+                                                                  dodale vo prethodniot cekor)
+    $ git push origin bug2(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata bug2)
+
+18. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium) 
+    $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium) 
+    $ git push origin bug2(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium) 
+
+19. $ git checkout master(so ovaa komanda se prefrlame na grankata master)
+
+20. $ git checkout master(se osiguruvame deka sme na grankata master)
+    $ git merge bug1(so ovaa komanda ja spojuvame grankata bug1 kon grankata master)
+    
+ Updating 9f21181..b937993
+ Fast-forward
+ SILab1Main.java | 18 ++++++++++++++++++
+ SILab1_1.java   | 15 +++++++++++++++
+ 2 files changed, 33 insertions(+)
+ create mode 100644 SILab1Main.java
+ create mode 100644 SILab1_1.java
+
+ * So ova spojuvanje ne se javi konflikt. Uspesno se izvrsi spojuvanjeto na grankite. Za da se izvrsi spojuvanjeto upotrebena e 
+   strategijata Fast Forward.
+
+21. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium) 
+    $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium) 
+    $ git push origin bug2(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium)
+
+22. $ git checkout bug2(so ovaa komanda se prefrlame na grankata bug2)
+
+23. $ git rebase master(so ovaa komanda pravime rebase sprema grankata master)
+
+   Auto-merging SILab1Main.java
+CONFLICT (add/add): Merge conflict in SILab1Main.java
+error: could not apply 0ffd34f... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 0ffd34f... Call method makeBigStringFrom in main class
+
+  * Pri pravenje na rebase se javi konflikt bidekji pravime povik na dve razlicni funkcii vo ista linija odnosno linijata 16 vo 
+    SILab1Main.java. Za resavanje na konfliktot jas gi upotrebiv slednive cekori:
+   
+  $ nano SILab1Main.java(go otvoriv tekstualniot urednik so ime SILab1Main.java i vnatre smeniv linija na eden od povicite, odnosno  
+                         namesto na linija 16 napraviv povik na linija 17).
+  $ git add SILab1Main.java(so ovaa komanda gi dodavame promenite napraveni vo SILab1Main.java)
+  $ git commit -m "Call method makeBigStringFrom in main class"(so ovaa komanda kreirame nov commit so poraka "Call method 
+                                                                makeBigStringFrom in main class" so site promeni koi sme gi 
+                                                                dodale vo prethodniot cekor)
+  $ git push origin bug2 --force(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata bug2, 
+                                 --force se koristi vo slucaj na konflikti)
+
+  * Pri pravenje na rebase sprema grankata master se koristi recursive strategija).
+
+24. $ git checkout master(so ovaa komanda se prefrlame na grankata master)
+
+25. $ git checkout master(se osigutuvame deka sme na grankata master)
+    $ git merge bug2(so ovaa komanda ja spojuvame grankata bug2 kon grankata master)
+     
+    * So ova spojuvanje bidekji konfliktot e resen vo prethodnite cekori ne se javi konflikt. Za da se izvrsi spojuvanjeto upotrebena e 
+      Fast Forward strategija
+
+26. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium) 
+    $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium) 
+    $ git push origin bug2(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium) 
+
+27. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium)
+    $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium) 
+    $ git push origin bug2 --force(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium, a --force go koristime 
+                                   vo slucaj na konflikti)
+
+28. $ touch logs.txt(so ovaa komanda kreirame prazen tekstualen fajl so ime logs.txt)
+    $ git log > logs.txt(so ovaa komanda gi kopirame komitite sto sme gi kreirale vo tekstualniot fajl logs.txt)
+    $ git add logs.txt(so ovaa komanda gi dodavame promenite napraveni vo logs.txt)
+    $ git commit -m "Final commit"(so ovaa komanda kreirame commit so poraka "Final commit" so promenite sto sme gi dodale)
+    $ nano 223109.txt(so pomos na nano otvarame tekstualen urednik so ime 223109.txt)
+    $ git add 223109.txt(so ovaa komanda gi dodavame promenite napraveni vo 223109.txt)
+    $ git commit -m "Final commit"(so ovaa komanda kreirame commit so poraka "Final commit" so promenite sto sme gi dodale)
+    $ git push -u origin master(so ovaa komanda gi isprakjame nasite lokalni promeni na oddaleceniot repozitorium na grankata master)
+
+29. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium)
+    $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium)
+    $ git push origin bug2 --force(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium, a --force go koristime 
+                                   vo slucaj na konflikti)
