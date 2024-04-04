@@ -130,7 +130,7 @@ Could not apply 0ffd34f... Call method makeBigStringFrom in main class
 
 26. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium) 
     $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium) 
-    $ git push origin bug2(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium) 
+    $ git push origin bug2 --force(so ovaa komanda ja sinhronizirame grankata bug2 so oddaleceniot repozitorium) 
 
 27. $ git push origin master(so ovaa komanda ja sinhronizirame grankata master so oddaleceniot repozitorium)
     $ git push origin bug1(so ovaa komanda ja sinhronizirame grankata bug1 so oddaleceniot repozitorium) 
